@@ -52,7 +52,7 @@ RUN git clone https://github.com/matiasdelellis/pdlib-min-test-suite.git \
 #
 # If pass the tests, we are able to create the final image.
 #
-FROM nextcloud:29.0.0-apache
+FROM nextcloud:29.0.16-apache
 
 # Install dependencies to image
 
