@@ -58,6 +58,10 @@ FROM nextcloud:29.0.16-apache
 
 RUN apt-get update ; \
     apt-get install -y libopenblas-dev
+	
+RUN apt-get install -y libbz2-dev
+
+RUN docker-php-ext-install bz2
 
 # Install dlib and PDlib to image
 
