@@ -15,3 +15,10 @@ sudo docker run -d \ \
 -e PHP_MEMORY_LIMIT=1G \ \
 --restart unless-stopped --name nextcloud \ \
 nextcloud-pdlib
+
+#  install face recognition
+
+Install face recognition via app store
+run:
+sudo docker exec --user www-data nextcloudtest php occ face:setup -M 1024M
+sudo docker exec --user www-data nextcloudtest php occ face:setup -m 1
