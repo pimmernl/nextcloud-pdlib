@@ -1,5 +1,5 @@
 # nextcloud-pdlib
-credits: https://github.com/mrishab/anton-apps/blob/master/nextcloud/Dockerfile
+credits: https://github.com/mrishab/anton-apps/blob/master/nextcloud/Dockerfile \
 Nextcloud 29 including pdlib for face recognition app
 
 # Install instructions ubunto
