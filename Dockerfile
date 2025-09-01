@@ -2,6 +2,7 @@
 # Use a temporary image to compile and test the libraries
 # 
 
+# Edit version number if needed, IMPORTANT also change version number on line 56
 FROM nextcloud:29.0.16-apache as builder
 # Build and install dlib on builder
 #
